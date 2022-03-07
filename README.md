@@ -19,7 +19,7 @@ local lbls = serv:Channel("Labels")
 lbls:Label("Some X Hub")
 
 btns:Button("Some X Hub", function()
-    loadstring(game:HttpGet"")()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/kickTh/SCRIPT-SOME-X-HUB/main/README.md")()
 end)
 
 local tgls = serv:Channel("Toggles")
