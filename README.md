@@ -18,13 +18,13 @@ local btns = serv:Channel("Buy Item")
 
 local btns = serv:Channel("Tp")
 btns:Button("pink", function()
-    game.Players.LocalPlayer.HumanoidRootPart.CFrame = CFrame.new(-5419.56641, 1089.33752, -2665.78589, 0.971406102, 1.70427565e-08, 0.237423971, -2.01854462e-08, 1, 1.08056044e-08, -0.237423971, -1.52891388e-08, 0.971406102)
+    game.Players.LocalPlayer.HumaniodRootPart.CFrame = CFrame.new(-5419.56641, 1089.33752, -2665.78589, 0.971406102, 1.70427565e-08, 0.237423971, -2.01854462e-08, 1, 1.08056044e-08, -0.237423971, -1.52891388e-08, 0.971406102)
 end)
 btns:Button("white", function()
-    game.Players.LocalPlayer.HumanoidRootPart.CFrame = CFrame.new(-5414.27979, 314.237671, -2212.57007, -0.984678745, -4.57075764e-08, 0.174378246, -4.24506084e-08, 1, 2.24074217e-08, -0.174378246, 1.46616497e-08, -0.984678745)
+    game.Players.LocalPlayer.HumaniodRootPart.CFrame = CFrame.new(-5414.27979, 314.237671, -2212.57007, -0.984678745, -4.57075764e-08, 0.174378246, -4.24506084e-08, 1, 2.24074217e-08, -0.174378246, 1.46616497e-08, -0.984678745)
 end)
 btns:Button("Red", function()
-    game.Players.LocalPlayer.HumanoidRootPart.CFrame = CFrame.new(-4972.89502, 335.937714, -3720.4707, -0.738323092, -2.82306036e-08, 0.674447179, 5.20171852e-08, 1, 9.88010598e-08, -0.674447179, 1.08029944e-07, -0.738323092)
+    game.Players.LocalPlayer.HumaniodRootPart.CFrame = CFrame.new(-4972.89502, 335.937714, -3720.4707, -0.738323092, -2.82306036e-08, 0.674447179, 5.20171852e-08, 1, 9.88010598e-08, -0.674447179, 1.08029944e-07, -0.738323092)
 end)
 
 
