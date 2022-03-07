@@ -46,7 +46,7 @@ btns:Button("Netna Hub", function()
 end)
 
 btns:Button("Maru X Hub", function()
-    loadstring(game:HttpGet"")()
+    loadstring(game:HttpGet"https://pastebin.com/raw/mUw5xC3J")()
 end)
 
 
