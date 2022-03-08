@@ -19,7 +19,7 @@ tgls:Toggle("Auto Farm Level", _G.AutoFarmLevel, function(vu)
 	end
 end)
 
-end)
+
 
 local tgls = serv:Channel("Stats")
 tgls:Toggle("Melee",true, function()
