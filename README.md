@@ -89,6 +89,11 @@ end)
 btns:Button("สคริปเหี้ยไรนี่5555", function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/Gohan9k/BLACKTRAP/main/GOHANSSJ3")()
 end)
+btns:Button("Ren Hub", function()
+    getgenv().keys = "Ren-IQVHIN-Y9N3MY"
+    getgenv().Discordid = "861809193501196309"
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RenHubb/Script/main/scriptmobile.lua'))()
+end)
 
 
 
