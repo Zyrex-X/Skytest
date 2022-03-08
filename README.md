@@ -32,17 +32,17 @@ local btns = serv:Channel("Tp")
 btns:Button("pink", function()
     local CFrameEnd = CFrame.new(-5419.56641, 1089.33752, -2665.78589, 0.971406102, 1.70427565e-08, 0.237423971, -2.01854462e-08, 1, 1.08056044e-08, -0.237423971, -1.52891388e-08, 0.971406102)
     local time = 3
-    local tween = game:GetService("TweenService"):Create(game.Local.LocalPlayers.Character.HumanoidRootPart,tweeninfo.new(Time),{CFrame = CFrameEnd}) tween:play()
+    local tween = game:GetService("TweenService"):Create(game.Local.LocalPlayer.Character.HumanoidRootPart,tweeninfo.new(Time),{CFrame = CFrameEnd}) tween:play()
 end)
 btns:Button("Red", function()
     local CFrameEnd = CFrame.new(-5414.27979, 314.237671, -2212.57007, -0.984678745, -4.57075764e-08, 0.174378246, -4.24506084e-08, 1, 2.24074217e-08, -0.174378246, 1.46616497e-08, -0.984678745)
     local time = 3
-    local tween = game:GetService("TweenService"):Create(game.Local.LocalPlayers.Character.HumanoidRootPart,tweeninfo.new(Time),{CFrame = CFrameEnd}) tween:play()
+    local tween = game:GetService("TweenService"):Create(game.Local.LocalPlayer.Character.HumanoidRootPart,tweeninfo.new(Time),{CFrame = CFrameEnd}) tween:play()
 end)
 btns:Button("White", function()
     local CFrameEnd = CFrame.new(-4972.89502, 335.937714, -3720.4707, -0.738323092, -2.82306036e-08, 0.674447179, 5.20171852e-08, 1, 9.88010598e-08, -0.674447179, 1.08029944e-07, -0.738323092)
     local time = 3
-    local tween = game:GetService("TweenService"):Create(game.Local.LocalPlayers.Character.HumanoidRootPart,tweeninfo.new(Time),{CFrame = CFrameEnd}) tween:play()
+    local tween = game:GetService("TweenService"):Create(game.Local.LocalPlayer.Character.HumanoidRootPart,tweeninfo.new(Time),{CFrame = CFrameEnd}) tween:play()
 end)
 
 
