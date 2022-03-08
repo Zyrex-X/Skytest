@@ -6,7 +6,8 @@ local serv = win:Server("Sky X Hub", "")
 local tgls = serv:Channel("Main")
 
 tgls:Toggle("AutoFarmLevel",true, function()
-    loadstring(game:HttpGet"")()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/Zyrex-X/AutoFarmFunc/main/README.md")()
+
 end)
 
 local tgls = serv:Channel("Stats")
