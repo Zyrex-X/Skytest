@@ -36,8 +36,10 @@ btns:Button("pink", function()
     local args = {
     [1] = "ActivateColor", 
     [2] = "Winter Sky"
-}
+}U
 game.GetService("ReplicatedStorage").Remotes.CommF_:invokeServer(unpack(args))
+end
+
 
 end)
 
