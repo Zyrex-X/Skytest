@@ -1908,7 +1908,7 @@ end)
 
 Tabes:Button("Some X Hub", function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/kickTh/SCRIPT-SOME-X-HUB/main/README.md")()
-")()
+
 end)
 
 Tabes:Button("Netna Hub", function()
